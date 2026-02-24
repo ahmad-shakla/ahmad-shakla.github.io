@@ -170,18 +170,15 @@ section {
 }
 
 @keyframes animate {
-
-    0%,
-    100% {
+    0%, 100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-        box-shadow: 0 5px 5px 5px rgb(0, 255, 255);
+        box-shadow: 0 5px 25px 5px #7c3aed;
     }
 
     50% {
         border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-        box-shadow: 0 5px 5px 5px rgb(0, 128, 0);
+        box-shadow: 0 5px 25px 5px #4c1d95;
     }
-
 }
 
 .info-box {
