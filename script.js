@@ -7,12 +7,12 @@ menuIcon.onclick = () => {
 
 var typed = new Typed(".auto-typed", {
     strings: [
-        'Cybersecurity Student',
-        "Penetration Tester",
-        "Threat Hunter",
-        "Red Teamer",
-        "Security Researcher"
-    ],
+  "Red Team Operator",
+  "Detection Engineer",
+  "Adversary Simulation Specialist",
+  "Malware Developer",
+  "Purple Team Practitioner"
+],
     typeSpeed: 50,
     backSpeed: 50,
     loop: true
