@@ -188,70 +188,98 @@ Designed and deployed a simulated SOC in Azure using Wazuh SIEM, Sysmon, and Aur
 
   </section>
 
-  <section class="projects" id="projects">
+ <section class="projects" id="projects">
 
-    <h2 class="section-title gradiant-color ">Recent Projects</h2>
+  <h2 class="section-title gradiant-color">Recent Projects</h2>
 
-    <div class="projects-grid">
+  <div class="projects-grid">
 
-      <div class="project-card">
-        <img src="./assets/project1.png" alt="project">
-        <h3>Enterprise-Based Penetration Testing</h3>
-        <p>Penetration testing across Linux, Windows, Active Directory, and web application targets against one external and two internal networks.</p>
-        <div class="btn-group">
-          <a href="https://academy.hackthebox.com/achievement/badge/a49a2e12-5bf6-11ef-864f-bea50ffe6cb4"><div class="btn">View Project</div></a>
-          
-        </div>
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="./assets/project1.png" alt="Advanced AD Red Teaming">
+      <h3>Advanced Active Directory Exploitation & Red Teaming</h3>
+      <p>
+        Compromised an enterprise Active Directory environment using DCSync,
+        Golden Ticket abuse, resource-based constrained delegation, and ACL
+        misconfiguration attacks. Performed lateral movement across segmented
+        networks using Ligolo-NG and Chisel.
+      </p>
+      <div class="btn-group">
+        <a href="https://academy.hackthebox.com/achievement/badge/a49a2e12-5bf6-11ef-864f-bea50ffe6cb4" target="_blank">
+          <div class="btn">View Details</div>
+        </a>
       </div>
-
-      <div class="project-card">
-        <a href="./assets/trick.pdf" alt="project">
-  <img src="./assets/trick.png" alt="APT Investigation">
-</a>
-<h3>APT Investigation – TrickBot Infection Analysis</h3>
-<p>
-Simulated a TrickBot-style infection in an Active Directory lab.
-Extracted IOCs using Suricata and Wireshark, mapped attacker behavior to MITRE ATT&CK, and developed custom Sigma and YARA detection rules.
-Produced a post-incident ISO/IEC 27001 compliance report including Annex A control mapping.
-</p>
-
-
-        <div class="project-card">
-          <a href="https://medium.com/@0x47M4D/from-human-verification-to-malware-2971e761894a">
-            <img src="./assets/iso.png" alt="project">
-      <h3>Human Verification Scam Malware Analysis</h3>
-<p>
-Reverse-engineered a malicious PowerShell script delivered through a fake verification scam.
-Analyzed AES and Base64 encryption routines, identified registry persistence mechanisms, and documented detection improvements for SOC monitoring.
-</p>
-        </div>
-
-
-      
-      <div class="project-card">
-        <img src="./assets/project2.png" alt="project">
-        <h3>Incident Response Investigation
-        </h3>
-        <p>Investigated Active Directory breaches using MITRE ATT&CK Framework and Windows event logs along with regular expressions.</p>
-        <div class="btn-group">
-          <a href="https://medium.com/@0x47M4D/poisoning-the-well-incident-response-ecc6de26442b"><div class="btn">View Project</div></a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="./assets/project3.png" alt="project">
-        <h3>Securing Cisco Switch</h3>
-        <p>Developed a secure network using Layer 2 protocols, implementing VLANs for traffic segmentation and port security to prevent unauthorized access.
-
-        </p>
-        <div class="btn-group">
-          <a href="https://github.com/ahmad-shakla/Network-Security"><div class="btn">View Project</div></a>
-        </div>
-      </div>
-
     </div>
 
-  </section>
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="./assets/trick.png" alt="TrickBot APT Investigation">
+      <h3>APT Investigation – TrickBot Infection Analysis</h3>
+      <p>
+        Simulated a TrickBot-style infection in a Windows AD lab.
+        Extracted IOCs using Suricata and Wireshark, mapped attacker behavior
+        to MITRE ATT&CK, and developed custom Sigma and YARA detection rules.
+        Produced a post-incident ISO/IEC 27001 compliance report.
+      </p>
+      <div class="btn-group">
+        <a href="./assets/trick.pdf" target="_blank">
+          <div class="btn">View Report</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="./assets/iso.png" alt="Malware Analysis">
+      <h3>Human Verification Scam Malware Analysis</h3>
+      <p>
+        Reverse-engineered a malicious PowerShell script delivered through a
+        fake verification scam. Analyzed AES and Base64 encryption routines,
+        identified registry persistence mechanisms, and documented detection
+        improvements for SOC monitoring.
+      </p>
+      <div class="btn-group">
+        <a href="https://medium.com/@0x47M4D/from-human-verification-to-malware-2971e761894a" target="_blank">
+          <div class="btn">Read Writeup</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <img src="./assets/project2.png" alt="Incident Response">
+      <h3>Incident Response Investigation</h3>
+      <p>
+        Investigated Active Directory breaches using Windows event logs and
+        MITRE ATT&CK mapping. Built detection logic using regular expressions
+        and improved visibility into credential abuse techniques.
+      </p>
+      <div class="btn-group">
+        <a href="https://medium.com/@0x47M4D/poisoning-the-well-incident-response-ecc6de26442b" target="_blank">
+          <div class="btn">Read Investigation</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <img src="./assets/project3.png" alt="Network Security">
+      <h3>Secure Network Infrastructure Implementation</h3>
+      <p>
+        Designed a segmented Layer 2 network using VLANs and port security.
+        Implemented access control policies to prevent unauthorized device
+        connections and improve internal traffic isolation.
+      </p>
+      <div class="btn-group">
+        <a href="https://github.com/ahmad-shakla/Network-Security" target="_blank">
+          <div class="btn">View Repository</div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
 
   
 
