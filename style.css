@@ -77,7 +77,7 @@ footer li a::before {
     top: 25px;
     border-radius: 1rem;
     transition: width 0.3s ease-in-out;
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 128, 0));
+    background: linear-gradient(to right, #7c3aed, #4c1d95);
 }
 
 /* Hover effect for nav-links */
@@ -100,7 +100,7 @@ footer li a:hover::before {
     color: white;
     cursor: pointer;
     text-wrap: nowrap;
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 128, 0));
+    background: linear-gradient(to right, #7c3aed, #4c1d95);
     transition: 0.3s ease-in-out;
 
 }
@@ -206,7 +206,7 @@ section {
 }
 
 .info-box span {
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 128, 0));
+    background: linear-gradient(to right, #7c3aed, #4c1d95);
     background-clip: text;
     color: transparent;
     font-size: 2rem;
@@ -224,7 +224,7 @@ section {
     cursor: pointer;
     font-weight: 500;
     text-wrap: nowrap;
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 128, 0));;
+    background: linear-gradient(to right, #7c3aed, #4c1d95);;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -260,7 +260,7 @@ section {
 }
 
 .gradiant-color {
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 128, 0));
+    background: linear-gradient(to right, #7c3aed, #4c1d95);
     background-clip: text;
     color: transparent;
 }
@@ -311,7 +311,7 @@ section {
 .grid-card span {
     font-size: 1.5rem;
     font-weight: 500;
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 128, 0));
+    background: linear-gradient(to right, #7c3aed, #4c1d95);
     background-clip: text;
     color: transparent;
 }
